@@ -377,30 +377,42 @@
         <h3>Hoe geraak ik daar?</h3>
         <p>Kasterlee is een toeristische trekpleister!</p>
     </div>
-	<div id="map-content" class="pointer-events-auto">
-		<div class="row">
-			<div class="col-md-6">
-				<h5>Feestzaal Den Eyck - zaal Aurum</h5>
-				<p>Houtum 39, 2460 Kasterlee, Antwerpen, België</p>
-			</div>
-			<div class="col-md-6">
-				<h5>Bel hen</h5>
-				<p><i class="fa fa-mobile"></i> <a href="tel://+3214859900">+32 (0)14 85 99 00</a></p>
-			</div>
-		</div>
-		<div class="row text-center">
-			<div class="col-md-6">
-				<a class="btn btn-fill btn-small"
-				   href="https://reservations.cubilis.eu/camping-houtum-kasterlee?Language=nl-NL"><i
-						class="fa fa-bed "></i>&nbsp;&nbsp;Kampeer vlakbij</a>
-			</div>
-			<div class="col-md-6">
-				<a class="btn btn-accent btn-small" 
-				href="https://www.google.be/maps/dir/Gent/Feestzaal+Den+Eyck,+Houtum+39,+2460+Kasterlee/@51.163128,4.0673746,10z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x47c370e1339443ad:0x40099ab2f4d5140!2m2!1d3.7174243!2d51.0543422!1m5!1m1!1s0x47c14d1a62e4fd21:0x15274e2ce1a14de0!2m2!1d4.9771953!2d51.2316246"><i 
-						class="fa fa-map-marker"></i>&nbsp;&nbsp;Toon op de kaart</a>
-			</div>
-		</div>
-	</div>
+    <div id="map-canvas"></div>
+    <div id="map-content-wrapper" class="container pointer-events-none">
+        <div class="row">
+            <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
+                <div class="text-center">
+                    <div id="btn-show-content" class="toggle-map-content pointer-events-auto">
+                        <i class="fa fa-info-circle"></i>&nbsp;&nbsp; Show info
+                    </div>
+                </div>
+                <div id="map-content" class="pointer-events-auto">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5>Feestzaal Den Eyck - zaal Aurum</h5>
+                            <p>Houtum 39, 2460 Kasterlee, Antwerpen, België</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5>Bel hen</h5>
+                            <p><i class="fa fa-mobile"></i> <a href="tel://+3214859900">+32 (0)14 85 99 00</a></p>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-md-6" style="padding: 5px;">
+                            <a class="btn btn-fill btn-small"
+                               href="https://reservations.cubilis.eu/camping-houtum-kasterlee?Language=nl-NL"><i
+                                    class="fa fa-bed "></i>&nbsp;&nbsp;Kampeer vlakbij</a>
+                        </div>
+                        <div class="col-md-6" style="padding: 5px;">
+                            <a class="btn btn-accent btn-small" 
+							href="https://www.google.be/maps/dir/Gent/Feestzaal+Den+Eyck,+Houtum+39,+2460+Kasterlee/@51.163128,4.0673746,10z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x47c370e1339443ad:0x40099ab2f4d5140!2m2!1d3.7174243!2d51.0543422!1m5!1m1!1s0x47c14d1a62e4fd21:0x15274e2ce1a14de0!2m2!1d4.9771953!2d51.2316246"><i 
+									class="fa fa-map-marker"></i>&nbsp;&nbsp;Toon op de kaart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <section class="rsvp text-center" id="rsvp">
